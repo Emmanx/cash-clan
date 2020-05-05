@@ -5,6 +5,7 @@ import { Header } from '../components/home/Header';
 import Biography from '../components/home/Biography';
 import Subscribe from '../components/home/Subscribe';
 import Releases from '../components/home/Releases';
+import Footer from '../components/common/Footer';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Biography />
       <Releases />
       <Subscribe />
+      <Footer />
     </>
   );
 }

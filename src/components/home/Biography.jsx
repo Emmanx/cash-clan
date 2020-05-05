@@ -3,42 +3,45 @@ import styled from 'styled-components';
 
 import { Container, Row } from '../common/Grid.jsx';
 
-import man from '../../images/man.jpeg';
+import city from '../../images/city.jpg';
 
 const Section = styled.section`
   padding: 10rem 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(${city});
 `;
 
 const Bio = styled.div`
-  width: 55%;
+  width: 100%;
   padding-right: 2rem;
 `;
 
-const BioImg = styled.img`
-  max-width: 45%;
-  object-fit: cover;
-  object-position: center bottom;
-`;
+// const BioImg = styled.img`
+//   max-width: 45%;
+//   object-fit: cover;
+//   object-position: center bottom;
+// `;
 
 const SectionTitle = styled.h2`
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(206, 152, 41);
+  color: #ffdb61;
   margin-bottom: 5rem;
 `;
 
 const Text = styled.p`
-  font-size: 1.4rem;
-  line-height: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   font-weight: 100;
+  color: #ccc;
 `;
 
 function Biography() {
   return (
     <Section>
       <Container>
-        <SectionTitle>BIOGRAPHY</SectionTitle>
+        <SectionTitle>ABOUT CASH CLAN</SectionTitle>
         <Row>
           <Bio>
             <Text>
@@ -123,7 +126,7 @@ function Biography() {
               pull.
             </Text>
           </Bio>
-          <BioImg src={man} alt="man in the studio" />
+          {/* <BioImg src={man} alt="man in the studio" /> */}
         </Row>
       </Container>
     </Section>

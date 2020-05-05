@@ -8,9 +8,10 @@ import { Link } from 'react-router-dom';
 const Wrapper = styled.header`
   width: 100%;
   /* height: 100px; */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #000;
   position: fixed;
   z-index: 10;
+  padding: 1rem 0;
 `;
 
 const Content = styled(Row)`
@@ -18,7 +19,7 @@ const Content = styled(Row)`
 `;
 
 const Logo = styled.img`
-  max-width: 150px;
+  max-width: 120px;
 `;
 
 const Menu = styled.nav`
@@ -30,6 +31,8 @@ const Menu = styled.nav`
 const MenuItem = styled(Link)`
   display: block;
   color: #fff;
+  border-bottom: 1px solid #ffdb61;
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.5rem;
