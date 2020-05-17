@@ -8,7 +8,8 @@ import red from '../../images/store/red.png'
 
 const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   padding: 5rem 0;
 `
@@ -17,6 +18,7 @@ const ProductCard = styled.div`
   width: 300px;
   padding: 2rem;
   margin: 2rem 1rem;
+  flex: 1;
 
   img {
     width: 100%;
