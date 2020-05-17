@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -16,7 +16,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    overflow-x: hidden;
   }
 
   body {
@@ -61,6 +62,6 @@ const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(206, 152, 41);
   }
-`;
+`
 
-export default GlobalStyles;
+export default GlobalStyles

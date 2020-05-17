@@ -1,7 +1,7 @@
 import React from 'react'
+import Slider from '../components/artists/Slider'
+// import styled from 'styled-components';
 
-import Hero from '../components/home/Hero'
-import Biography from '../components/home/Biography'
 import ArtistsGrid from '../components/home/ArtistsGrid'
 
 import dope from '../images/albums/dope.jpg'
@@ -32,14 +32,13 @@ const artists = [
   mask,
 ]
 
-function Home() {
+function Artists() {
   return (
     <>
-      <Hero />
-      <Biography />
-      <ArtistsGrid images={artists} title={'Currently Trending Artists'} />
+      <Slider />
+      <ArtistsGrid images={artists} />
     </>
   )
 }
 
-export { Home }
+export { Artists }

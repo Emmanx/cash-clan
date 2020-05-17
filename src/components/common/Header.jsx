@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import React from 'react';
+import styled from 'styled-components'
+import React from 'react'
 
-import logo from '../../images/logo.png';
-import { Container, Row } from '../common/Grid';
-import { Link } from 'react-router-dom';
+import logo from '../../images/logo.png'
+import { Container, Row } from '../common/Grid'
+import { Link } from 'react-router-dom'
 
 const Wrapper = styled.header`
   width: 100%;
@@ -12,21 +12,21 @@ const Wrapper = styled.header`
   position: fixed;
   z-index: 10;
   padding: 1rem 0;
-`;
+`
 
 const Content = styled(Row)`
   justify-content: space-between;
-`;
+`
 
 const Logo = styled.img`
   max-width: 120px;
-`;
+`
 
 const Menu = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const MenuItem = styled(Link)`
   display: block;
@@ -38,7 +38,7 @@ const MenuItem = styled(Link)`
   font-size: 1.5rem;
   margin: 1rem;
   font-weight: 600;
-`;
+`
 
 function Header() {
   return (
@@ -47,15 +47,15 @@ function Header() {
         <Content>
           <Logo src={logo} alt="logo" />
           <Menu>
-            <MenuItem to="/">Artist</MenuItem>
-            <MenuItem to="/">Store</MenuItem>
+            <MenuItem to="/artists">Artists</MenuItem>
+            <MenuItem to="/store">Store</MenuItem>
             <MenuItem to="/">News</MenuItem>
-            <MenuItem to="/">Lifestyle</MenuItem>
+            <MenuItem to="/lifestyle">Lifestyle</MenuItem>
           </Menu>
         </Content>
       </Container>
     </Wrapper>
-  );
+  )
 }
 
-export { Header };
+export default Header
