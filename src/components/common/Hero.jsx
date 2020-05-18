@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   }
 
   .fnc-slider .m--blend-green .fnc-slide__inner {
-    background: url(${lilbaby});
+    background: url(${props => props.image || lilbaby});
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -131,9 +131,9 @@ const Wrapper = styled.div`
   }
 `
 
-function Hero({ line1, line2 }) {
+function Hero({ line1, line2, image }) {
   return (
-    <Wrapper>
+    <Wrapper image={image}>
       <div className="demo-cont">
         <div className="fnc-slider example-slider">
           <div className="fnc-slider__slides">

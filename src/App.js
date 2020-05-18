@@ -5,7 +5,7 @@ import Subscribe from './components/common/Subscribe'
 import Header from './components/common/Header'
 import Footer from './components/common/Footer'
 
-import { Home, Artists, LifeStyle, Store } from './pages'
+import { Home, Artists, LifeStyle, Store, Feature } from './pages'
 
 function App() {
   return (
@@ -23,6 +23,9 @@ function App() {
         </Route>
         <Route exact path="/store">
           <Store />
+        </Route>
+        <Route exact path="/feature">
+          <Feature />
         </Route>
       </Switch>
       <Subscribe />

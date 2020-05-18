@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import Link from 'react-router-dom'
 
 const Section = styled.section`
   padding: 5rem 0;
@@ -29,7 +30,7 @@ const Grid = styled.div`
   }
 `
 
-const Button = styled.button`
+const Button = styled(Link)`
   background: #ffdb61;
   color: #000;
   text-align: center;
@@ -48,7 +49,7 @@ function Artists({ title, images }) {
           <img key={img} src={img} alt="album art" />
         ))}
       </Grid>
-      <Button>Feature an Artist</Button>
+      <Button to="/feature">Feature an Artist</Button>
     </Section>
   )
 }
