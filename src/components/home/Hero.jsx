@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import hero from '../../images/hero.jpg';
-import { Container, Row } from '../common/Grid';
+import hero from '../../images/hero.jpg'
+import { Container, Row } from '../common/Grid'
 
 // linear-gradient(rgba(206, 152, 41, 0.3), rgba(206, 152, 41, 0.3)),
 
@@ -14,14 +14,14 @@ const Banner = styled.section`
   background-repeat: no-repeat;
   background-position: center center;
   backdrop-filter: grayscale(0.6);
-`;
+`
 
 const Content = styled(Row)`
   height: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-`;
+`
 
 const Title = styled.h1`
   color: #fff;
@@ -29,18 +29,20 @@ const Title = styled.h1`
   font-weight: 600;
   line-height: 15rem;
   text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
 
   span {
     border-bottom: 10px solid #ffdb61;
   }
-`;
+`
 
 const Scroll = styled.div`
   position: relative;
   width: 24px;
   height: 24px;
   top: 15%;
-`;
+`
 
 const Chevron = styled.div`
   position: absolute;
@@ -96,7 +98,7 @@ const Chevron = styled.div`
       transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
     }
   }
-`;
+`
 
 function Hero() {
   return (
@@ -116,7 +118,7 @@ function Hero() {
         </Container>
       </Banner>
     </>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
