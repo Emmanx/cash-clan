@@ -49,7 +49,7 @@ function Header() {
           <Menu>
             <MenuItem to="/artists">Artists</MenuItem>
             <MenuItem to="/store">Store</MenuItem>
-            <MenuItem to="/">News</MenuItem>
+            <MenuItem to="/news">News</MenuItem>
             <MenuItem to="/lifestyle">Lifestyle</MenuItem>
           </Menu>
         </Content>
