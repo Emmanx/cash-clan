@@ -31,10 +31,10 @@ const Title = styled.h1`
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
-
+  /* 
   span {
     border-bottom: 10px solid #ffdb61;
-  }
+  } */
 `
 
 const Scroll = styled.div`
