@@ -91,7 +91,9 @@ function Header() {
     <Wrapper>
       <Container>
         <Content>
-          <Logo src={logo} alt="logo" />
+          <Link to="/">
+            <Logo src={logo} alt="logo" />
+          </Link>
           <Menu>
             <MenuItem to="/artists">Artists</MenuItem>
             <MenuItem to="/store">Store</MenuItem>
