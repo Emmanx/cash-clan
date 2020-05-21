@@ -8,10 +8,19 @@ const Wrapper = styled.div`
   display: flex;
   width: 100%;
 
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+
   img {
     flex: 1;
     object-fit: cover;
     object-position: center;
+    width: 50%;
+
+    @media (max-width: 480px) {
+      width: 100%;
+    }
   }
 `
 

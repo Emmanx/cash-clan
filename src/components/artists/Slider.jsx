@@ -15,6 +15,10 @@ const Wrapper = styled.div`
   height: auto;
   display: flex;
 
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+
   [class^='swiper-button-'] {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
@@ -33,10 +37,23 @@ const Wrapper = styled.div`
     transition: opacity 0.6s ease, transform 0.3s ease;
     transition: opacity 0.6s ease, transform 0.3s ease,
       -webkit-transform 0.3s ease;
+
+    @media (max-width: 480px) {
+      width: 100%;
+    }
+  }
+  .swiper-container.main-slider {
+    @media (max-width: 480px) {
+      height: 70vh;
+    }
   }
   .swiper-container.nav-slider {
     width: 20%;
     padding-left: 5px;
+
+    @media (max-width: 480px) {
+      width: 100%;
+    }
   }
   .swiper-container.nav-slider .swiper-slide {
     cursor: pointer;
@@ -76,6 +93,10 @@ const Wrapper = styled.div`
     height: 100%;
     background-position: center;
     background-size: cover;
+
+    @media (max-width: 480px) {
+      /* background-position-x: right; */
+    }
   }
   .swiper-slide .entity-img {
     display: none;
@@ -92,6 +113,10 @@ const Wrapper = styled.div`
     font-size: 7rem;
     font-weight: bold;
     /* margin-bottom: 30px; */
+
+    @media (max-width: 480px) {
+      font-size: 4.5rem;
+    }
   }
   .swiper-slide .content .caption {
     display: block;

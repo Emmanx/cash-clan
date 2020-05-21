@@ -13,20 +13,50 @@ const NewsBox = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    &:nth-child(even) {
+      flex-direction: column;
+    }
+  }
 `
 
 const Image = styled.img`
   width: 50%;
+  height: 100%;
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const Info = styled.div`
   width: 50%;
   padding: 5rem;
 
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
   h3 {
     color: #ffdb61;
     font-weight: 100;
     font-size: 5rem;
+
+    @media (max-width: 1024px) {
+      font-size: 3.5rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 2.5rem;
+    }
   }
 
   p {
@@ -34,6 +64,10 @@ const Info = styled.div`
     font-size: 2rem;
     font-weight: 100;
     line-height: 2.5rem;
+
+    @media (max-width: 1024px) {
+      font-size: 1.6rem;
+    }
   }
 `
 
@@ -55,6 +89,7 @@ function News() {
         </Info>
       </NewsBox>
       <NewsBox>
+        <Image src={migos} />
         <Info>
           <h3 className="title">
             Migos brings fresh drip to the finish line campaign
@@ -69,7 +104,6 @@ function News() {
             Jackson.
           </p>
         </Info>
-        <Image src={migos} />
       </NewsBox>
       <NewsBox>
         <Image src={cardib} />
@@ -87,6 +121,7 @@ function News() {
         </Info>
       </NewsBox>
       <NewsBox>
+        <Image src={diana} />
         <Info>
           <h3 className="title">
             Diana Ross Dazzles The American Music Awards Red Carpet
@@ -98,7 +133,6 @@ function News() {
             headpiece and tulle train.
           </p>
         </Info>
-        <Image src={diana} />
       </NewsBox>
       <NewsBox>
         <Image src={crouch} />

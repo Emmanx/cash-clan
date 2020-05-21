@@ -1,19 +1,23 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Container } from '../common/Grid';
+import React from 'react'
+import styled from 'styled-components'
+import { Container } from '../common/Grid'
 
-import mail from '../../images/mail.svg';
+import mail from '../../images/mail.svg'
 
 const Form = styled.form`
   width: 70%;
   margin: 0 auto;
-`;
+
+  @media (max-width: 480px) {
+    width: 90%;
+  }
+`
 
 const Section = styled.section`
   padding: 5rem 0;
   color: #000;
   background: #ffdb61;
-`;
+`
 
 const SectionTitle = styled.h2`
   font-size: 4rem;
@@ -25,12 +29,16 @@ const SectionTitle = styled.h2`
   align-items: center;
   justify-content: center;
 
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+
   img {
     display: inline;
     max-width: 50px;
     padding-right: 1rem;
   }
-`;
+`
 
 const Input = styled.input`
   outline: none;
@@ -45,7 +53,7 @@ const Input = styled.input`
   &::placeholder {
     color: #000;
   }
-`;
+`
 
 const Submit = styled.button`
   border: none;
@@ -58,7 +66,7 @@ const Submit = styled.button`
   border-radius: 5px;
   width: 100%;
   text-transform: uppercase;
-`;
+`
 
 function Subscribe() {
   return (
@@ -77,7 +85,7 @@ function Subscribe() {
         </Form>
       </Container>
     </Section>
-  );
+  )
 }
 
-export default Subscribe;
+export default Subscribe

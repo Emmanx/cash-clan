@@ -39,6 +39,11 @@ const SectionTitle = styled.h2`
   margin: 10rem 0;
   text-transform: uppercase;
   text-align: center;
+
+  @media (max-width: 480px) {
+    font-size: 3rem;
+    margin: 5rem 0;
+  }
 `
 
 const Text = styled.p`
@@ -49,6 +54,11 @@ const Text = styled.p`
   margin-bottom: 10rem;
   width: 80%;
   margin: 0 auto 10rem;
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 `
 
 function Artists() {

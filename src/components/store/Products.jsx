@@ -12,13 +12,28 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   width: 100%;
   padding: 5rem 0;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+  }
 `
 
 const ProductCard = styled.div`
-  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
   padding: 2rem;
   margin: 2rem 1rem;
   flex: 1;
+  flex-shrink: 0;
+
+  @media (max-width: 768px) {
+    min-width: 50%;
+    flex: 0;
+  }
+
+  @media (max-width: 480px) {
+    flex: 1;
+  }
 
   img {
     width: 100%;
@@ -26,6 +41,10 @@ const ProductCard = styled.div`
     height: 300px;
     object-fit: cover;
     object-position: center;
+
+    @media (max-width: 768px) {
+      height: auto;
+    }
   }
 
   h4 {

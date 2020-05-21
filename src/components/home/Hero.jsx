@@ -31,6 +31,11 @@ const Title = styled.h1`
   text-align: center;
   text-transform: uppercase;
   font-style: italic;
+
+  @media (max-width: 480px) {
+    font-size: 8rem;
+    line-height: 11rem;
+  }
   /* 
   span {
     border-bottom: 10px solid #ffdb61;

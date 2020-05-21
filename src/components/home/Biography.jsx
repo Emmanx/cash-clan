@@ -1,20 +1,20 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-import { Container, Row } from '../common/Grid.jsx';
+import { Container, Row } from '../common/Grid.jsx'
 
-import city from '../../images/city.jpg';
+import city from '../../images/city.jpg'
 
 const Section = styled.section`
   padding: 10rem 0;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(${city});
-`;
+`
 
 const Bio = styled.div`
   width: 100%;
   padding-right: 2rem;
-`;
+`
 
 // const BioImg = styled.img`
 //   max-width: 45%;
@@ -28,14 +28,24 @@ const SectionTitle = styled.h2`
   text-transform: uppercase;
   color: #ffdb61;
   margin-bottom: 5rem;
-`;
+  text-align: center;
+
+  @media (max-width: 480px) {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+`
 
 const Text = styled.p`
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 100;
   color: #ccc;
-`;
+
+  @media (max-width: 480px) {
+    text-align: center;
+  }
+`
 
 function Biography() {
   return (
@@ -130,7 +140,7 @@ function Biography() {
         </Row>
       </Container>
     </Section>
-  );
+  )
 }
 
-export default Biography;
+export default Biography

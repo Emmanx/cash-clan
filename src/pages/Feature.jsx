@@ -13,6 +13,11 @@ const SectionTitle = styled.h2`
   color: #ffdb61;
   margin: 10rem auto 5rem;
   text-align: center;
+
+  @media (max-width: 480px) {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
 `
 
 const Text = styled.p`
@@ -22,6 +27,11 @@ const Text = styled.p`
   color: #ccc;
   /* text-align: center; */
   margin-bottom: 10rem;
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 `
 
 function Feature() {

@@ -9,6 +9,10 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     position: relative;
     height: 100vh;
+
+    @media (max-width: 480px) {
+      height: 70vh;
+    }
   }
 
   .fnc-slider__slides {
@@ -21,9 +25,10 @@ const Wrapper = styled.div`
   }
 
   .fnc-slider .m--blend-green .fnc-slide__inner {
-    background: url(${props => props.image || lilbaby});
+    background: url(${(props) => props.image || lilbaby});
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: center;
   }
 
   .fnc-slider .m--blend-green .fnc-slide__mask-inner {
@@ -101,6 +106,14 @@ const Wrapper = styled.div`
     background-size: cover;
     background-position: center center;
     background-blend-mode: luminosity;
+
+    @media (max-width: 768px) {
+      left: 35%;
+    }
+
+    @media (max-width: 480px) {
+      left: 20%;
+    }
   }
 
   .fnc-slide__content {
@@ -108,6 +121,14 @@ const Wrapper = styled.div`
     position: absolute;
     left: 40%;
     top: 40%;
+
+    @media (max-width: 768px) {
+      left: 25%;
+    }
+
+    @media (max-width: 480px) {
+      left: 10%;
+    }
   }
   .fnc-slide__heading {
     margin-bottom: 10px;
@@ -121,6 +142,14 @@ const Wrapper = styled.div`
     font-weight: 700;
     color: #fff;
     word-spacing: 10px;
+
+    @media (max-width: 768px) {
+      font-size: 8rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 6rem;
+    }
   }
   .fnc-slide__heading-line:nth-child(2) {
     padding-left: 30px;

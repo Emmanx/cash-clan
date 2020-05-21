@@ -16,6 +16,11 @@ const SectionTitle = styled.h2`
   margin: 10rem 0;
   text-transform: uppercase;
   text-align: center;
+
+  @media (max-width: 480px) {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
 `
 
 const Grid = styled.div`
@@ -26,7 +31,10 @@ const Grid = styled.div`
 
   img {
     width: 25%;
-    /* margin: 1rem; */
+
+    @media (max-width: 480px) {
+      width: 50%;
+    }
   }
 `
 
