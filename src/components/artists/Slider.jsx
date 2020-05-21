@@ -17,6 +17,7 @@ const Wrapper = styled.div`
 
   @media (max-width: 480px) {
     flex-direction: column;
+    display: none;
   }
 
   [class^='swiper-button-'] {
