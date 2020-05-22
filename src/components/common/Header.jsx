@@ -9,7 +9,7 @@ import icon from '../../images/list.svg'
 
 const Wrapper = styled.header`
   width: 100%;
-  /* height: 100px; */
+  height: 120px;
   background-color: #000;
   position: fixed;
   z-index: 10;
@@ -64,6 +64,9 @@ const MobileMenu = styled.nav`
   display: none;
   width: 100vw;
   transition: 0.5s;
+  position: absolute;
+  top: 120px;
+  z-index: 5;
 
   @media (max-width: 600px) {
     display: block;
@@ -88,21 +91,23 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <Wrapper>
-      <Container>
-        <Content>
-          <Link to="/">
-            <Logo src={logo} alt="logo" />
-          </Link>
-          <Menu>
-            <MenuItem to="/artists">Artists</MenuItem>
-            <MenuItem to="/store">Store</MenuItem>
-            <MenuItem to="/news">News</MenuItem>
-            <MenuItem to="/lifestyle">Lifestyle</MenuItem>
-          </Menu>
-          <Toggler onClick={() => setShowMenu(!showMenu)} src={icon} />
-        </Content>
-      </Container>
+    <>
+      <Wrapper>
+        <Container>
+          <Content>
+            <Link to="/">
+              <Logo src={logo} alt="logo" />
+            </Link>
+            <Menu>
+              <MenuItem to="/artists">Artists</MenuItem>
+              <MenuItem to="/store">Store</MenuItem>
+              <MenuItem to="/news">News</MenuItem>
+              <MenuItem to="/lifestyle">Lifestyle</MenuItem>
+            </Menu>
+            <Toggler onClick={() => setShowMenu(!showMenu)} src={icon} />
+          </Content>
+        </Container>
+      </Wrapper>
       {showMenu && (
         <MobileMenu id="mobile">
           <MobileItem onClick={() => setShowMenu(false)} to="/artists">
@@ -119,7 +124,7 @@ function Header() {
           </MobileItem>
         </MobileMenu>
       )}
-    </Wrapper>
+    </>
   )
 }
 
