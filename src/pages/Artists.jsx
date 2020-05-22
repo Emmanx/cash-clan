@@ -32,6 +32,12 @@ const artists = [
   mask,
 ]
 
+const Wrapper = styled.div`
+  @media (max-width: 600px) {
+    margin-top: 150px;
+  }
+`
+
 const SectionTitle = styled.h2`
   font-size: 4rem;
   font-weight: 600;
@@ -44,7 +50,6 @@ const SectionTitle = styled.h2`
   @media (max-width: 480px) {
     font-size: 3rem;
     margin: 5rem 0;
-    top: 120px;
   }
 `
 
@@ -65,7 +70,7 @@ const Text = styled.p`
 
 function Artists() {
   return (
-    <>
+    <Wrapper>
       <Slider />
       <SectionTitle>DISCLAIMER</SectionTitle>
       <Text>
@@ -99,7 +104,7 @@ function Artists() {
         trending in various records labels and are not signed to Cash Clan Music
       </Text>
       <ArtistsGrid images={artists} />
-    </>
+    </Wrapper>
   )
 }
 
