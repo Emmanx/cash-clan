@@ -26,11 +26,12 @@ const SectionTitle = styled.h2`
 const Grid = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 
   img {
     width: 25%;
+    flex: 1;
+    height: auto;
 
     @media (max-width: 480px) {
       width: 50%;
