@@ -16,6 +16,7 @@ import weekend from '../images/albums/weekend.jpg'
 import cute from '../images/albums/cute.jpg'
 import wayne from '../images/albums/wayne.jpg'
 import mask from '../images/albums/mask.jpg'
+import Hero from '../components/common/Hero'
 
 const artists = [
   dope,
@@ -32,10 +33,13 @@ const artists = [
   mask,
 ]
 
-const Wrapper = styled.div`
-  @media (max-width: 600px) {
-    position: relative;
-    top: 150px;
+const HeroWrapper = styled.div`
+  width: 100%;
+  display: none;
+  @media (max-width: 480px) {
+    /* position: relative;
+    top: 150px; */
+    display: block;
   }
 `
 
@@ -71,7 +75,10 @@ const Text = styled.p`
 
 function Artists() {
   return (
-    <Wrapper>
+    <>
+      <HeroWrapper>
+        <Hero line1="Artists" />
+      </HeroWrapper>
       <Slider />
       <SectionTitle>DISCLAIMER</SectionTitle>
       <Text>
@@ -105,7 +112,7 @@ function Artists() {
         trending in various records labels and are not signed to Cash Clan Music
       </Text>
       <ArtistsGrid images={artists} />
-    </Wrapper>
+    </>
   )
 }
 
