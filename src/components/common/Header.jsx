@@ -14,14 +14,23 @@ const Wrapper = styled.header`
   position: fixed;
   z-index: 10;
   padding: 1rem 0;
+
+  @media (max-width: 480px) {
+    height: 80px;
+  }
 `
 
 const Content = styled(Row)`
   justify-content: space-between;
+  align-items: center;
 `
 
 const Logo = styled.img`
   max-width: 120px;
+
+  @media (max-width: 480px) {
+    max-width: 70px;
+  }
 `
 
 const Menu = styled.nav`
@@ -48,7 +57,7 @@ const MenuItem = styled(Link)`
 
 const Toggler = styled.img`
   display: none;
-  max-width: 50px;
+  max-width: 35px;
 
   @media (max-width: 600px) {
     display: block;
@@ -65,7 +74,7 @@ const MobileMenu = styled.nav`
   width: 100vw;
   transition: 0.5s;
   position: fixed;
-  top: 120px;
+  top: 80px;
   z-index: 5;
 
   @media (max-width: 600px) {
@@ -79,7 +88,7 @@ const MobileItem = styled(MenuItem)`
   margin: 0 auto;
 
   &:first-of-type {
-    padding-top: 5rem;
+    padding-top: 3rem;
   }
 
   &:last-of-type {
