@@ -34,7 +34,8 @@ const artists = [
 
 const Wrapper = styled.div`
   @media (max-width: 600px) {
-    margin-top: 150px;
+    position: relative;
+    top: 150px;
   }
 `
 
