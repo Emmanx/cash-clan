@@ -39,10 +39,12 @@ const SectionTitle = styled.h2`
   margin: 10rem 0;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
 
   @media (max-width: 480px) {
     font-size: 3rem;
     margin: 5rem 0;
+    top: 120px;
   }
 `
 

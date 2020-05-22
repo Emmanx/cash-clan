@@ -64,7 +64,7 @@ const MobileMenu = styled.nav`
   display: none;
   width: 100vw;
   transition: 0.5s;
-  position: absolute;
+  position: fixed;
   top: 120px;
   z-index: 5;
 
