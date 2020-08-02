@@ -74,7 +74,7 @@ function Subscribe() {
       <Container>
         <SectionTitle>
           {' '}
-          <img src={mail} alt="Email icon" /> Keep Up With Cash Clan
+          <img src={mail} alt="Email icon" /> Keep Up With City Billionaires
         </SectionTitle>
         <Form>
           <Input placeholder="First Name" />

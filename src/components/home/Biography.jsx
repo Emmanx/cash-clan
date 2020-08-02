@@ -51,7 +51,7 @@ function Biography() {
   return (
     <Section>
       <Container>
-        <SectionTitle>ABOUT CASH CLAN</SectionTitle>
+        <SectionTitle>ABOUT City Billionaires</SectionTitle>
         <Row>
           <Bio>
             <Text>
@@ -60,17 +60,18 @@ function Biography() {
               first time. While it’s not surprising that factors like streaming
               altered the music business, it is also true this genre has a power
               like never. And Nielsen saw all that was made, and said “let there
-              be Cash clan music.” And the culture on the streets listened, and
-              saw it was good. Yes, at the forefront of this culture is one
-              breakthrough, visionary record label: Cash clan music . By keeping
-              their ear to the streets rather than merely counting algorithm
-              stats, Cash clan music brings back the spirit that first spawned
-              trail-blazing scenes when the fans are heard and the dog is not
-              wagged by the industry tail. Just as punk erupted out of New York
-              City and Motown from Detroit, the new wave of the most successful
-              and acclaimed music comes out of a specific city at a specific
-              moment—this time it’s Atlanta, home to CCM .Founded in 2017 by
-              Roland king and Coo wale David.
+              be City Billionaires music.” And the culture on the streets
+              listened, and saw it was good. Yes, at the forefront of this
+              culture is one breakthrough, visionary record label: City
+              Billionaires music . By keeping their ear to the streets rather
+              than merely counting algorithm stats, City Billionaires music
+              brings back the spirit that first spawned trail-blazing scenes
+              when the fans are heard and the dog is not wagged by the industry
+              tail. Just as punk erupted out of New York City and Motown from
+              Detroit, the new wave of the most successful and acclaimed music
+              comes out of a specific city at a specific moment—this time
+              it’s Atlanta, home to CCM .Founded in 2017 by Roland king and Coo
+              wale David.
               <br />
               <br />
               Acting as managers, studio owners, and digital strategists as well
@@ -82,7 +83,7 @@ function Biography() {
               does. As a label, we don’t want to be pigeonholed to any one
               sound, but we are into building brands, so they have to have a
               story where we only need to take their very authenticity, wrap it
-              up and sell it.” Bottom line – CASH CLAN MUSIC exists to
+              up and sell it.” Bottom line – City Billionaires MUSIC exists to
               creatively support the artists’ vision. “You can’t just depend on
               the music alone,,says wale “Too many talented artists have gone
               unnoticed. You’ve got to have seven different hustles.” In
@@ -115,18 +116,19 @@ function Biography() {
               Recognizing that they would need resources to really grow CCM for
               global takeover.The key is to find a partner who really
               understands who you are,” says Wale . “And trust that
-              understanding to allow CASH CLAN MUSIC to run smoothly,I still get
-              to do what I love to do, which is develop talent—find it early,
-              develop it, and get it ready for global success.” Most notably,
-              CASH CLAN MUSIC took a forward-thinking approach to streaming,
-              digital distribution, and meeting its audience in the places
+              understanding to allow City Billionaires MUSIC to run
+              smoothly,I still get to do what I love to do, which is develop
+              talent—find it early, develop it, and get it ready for global
+              success.” Most notably, City Billionaires MUSIC took a
+              forward-thinking approach to streaming, digital distribution, and
+              meeting its audience in the places
               they discovered music. “We weathered the storm, Looking ahead,
               Wale and Roland want to go beyond borders of genre or country. “I
               don’t want just to be known as ‘the trap label,’ ” says Wale. “I
               want to be a world label. Quietly, these two men have created a
-              company in the independent spirit(CASH CLAN MUSIC). Roland , for
-              one, wants to keep the focus on the results rather than the men
-              behind the curtain. “I don’t need to be all in front of the
+              company in the independent spirit(City Billionaires MUSIC). Roland
+              , for one, wants to keep the focus on the results rather than the
+              men behind the curtain. “I don’t need to be all in front of the
               cameras, in all the magazines—I’m here to take care of business,”
               he says. “Some people get egos, get the big head, but where I come
               from, we don’t like cameras, we don’t like the spotlight. Wale

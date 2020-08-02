@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const Wrapper = styled.footer`
   width: 100%;
@@ -8,14 +8,14 @@ const Wrapper = styled.footer`
   color: #ffdb61;
   font-size: 1.6rem;
   text-align: center;
-`;
+`
 
 function Footer() {
   return (
     <Wrapper>
-      <p>© 2020. All Rights Reserved. Cash Clan Records</p>
+      <p>© 2020. All Rights Reserved. City Billionaires Records</p>
     </Wrapper>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
