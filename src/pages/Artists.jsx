@@ -82,11 +82,11 @@ function Artists() {
       <Slider />
       <SectionTitle>DISCLAIMER</SectionTitle>
       <Text>
-        No artist currently signed under CCM as the label is currently scouting
+        No artist currently signed under CBM as the label is currently scouting
         for some few talented unsigned artists ,the record label is looking at
         signing a few unsign artist on a starting two years record contract deal
         worth $1 million( one million dollars) With a great vision of producing
-        the next big stars the record label(CCM) is willing to support all
+        the next big stars the record label(CBM) is willing to support all
         artists signed under the management in achieving their dreams, City
         Billionaires music is not in a hurry in getting the kind artist we need
         because when it comes to making good music we really got high taste
@@ -95,7 +95,7 @@ function Artists() {
         $600,000 in achieving this . We need an artist who is marketable and
         musically oriented either in rapping or singing because the music
         business is getting better and Serious everyday “says wale . In terms of
-        distribution CCM has some high profile distribution mogul to work with
+        distribution CBM has some high profile distribution mogul to work with
         the team ,making sure our artist are network properly globally . We have
         been trying to connect with as many artist as possible on social media
         to see if they got what we need in an artist,why social media ? over the

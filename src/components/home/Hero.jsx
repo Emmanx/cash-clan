@@ -25,7 +25,7 @@ const Content = styled(Row)`
 
 const Title = styled.h1`
   color: #fff;
-  font-size: 12rem;
+  font-size: 9rem;
   font-weight: 600;
   line-height: 15rem;
   text-align: center;
@@ -33,8 +33,13 @@ const Title = styled.h1`
   font-style: italic;
 
   @media (max-width: 480px) {
-    font-size: 8rem;
-    line-height: 11rem;
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
   }
   /* 
   span {
