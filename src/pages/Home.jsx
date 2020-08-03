@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Hero from '../components/home/Hero'
 import Biography from '../components/home/Biography'
@@ -33,6 +33,10 @@ const artists = [
 ]
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <Hero />

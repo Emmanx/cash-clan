@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Subscribe from './components/common/Subscribe'
@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <ScrollToTop />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -35,6 +36,14 @@ function App() {
       <Footer />
     </Router>
   )
+}
+
+const ScrollToTop = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  return <></>
 }
 
 export default App

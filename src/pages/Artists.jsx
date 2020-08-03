@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Slider from '../components/artists/Slider'
 import styled from 'styled-components'
 
@@ -74,6 +74,10 @@ const Text = styled.p`
 `
 
 function Artists() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <HeroWrapper>

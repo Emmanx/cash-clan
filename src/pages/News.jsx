@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../components/common/Hero'
 import styled from 'styled-components'
 
@@ -72,6 +72,10 @@ const Info = styled.div`
 `
 
 function News() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <Hero image={city} line1="News" line2="Updates" />

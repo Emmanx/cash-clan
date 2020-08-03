@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from '../components/common/Hero'
 import styled from 'styled-components'
 
@@ -35,6 +35,10 @@ const Text = styled.p`
 `
 
 function Feature() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <Hero image={raerae} line1="Feature" line2="An Artist" />
