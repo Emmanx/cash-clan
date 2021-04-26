@@ -117,7 +117,7 @@ function Hero() {
         <Container>
           <Content>
             <Title>
-              <span>City Billionaires</span> <br /> <span>Music</span>
+              <span>Black Royce</span> <br /> <span>Music</span>
             </Title>
             <Scroll>
               <Chevron />

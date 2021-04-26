@@ -13,7 +13,7 @@ const Wrapper = styled.footer`
 function Footer() {
   return (
     <Wrapper>
-      <p>© 2020. All Rights Reserved. City Billionaires Records</p>
+      <p>© 2021. All Rights Reserved. Black Royce Music</p>
     </Wrapper>
   )
 }

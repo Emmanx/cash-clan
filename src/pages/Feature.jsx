@@ -66,9 +66,9 @@ function Feature() {
             you choose. An a-list musician will cost anywhere from $80,000 to
             $90,000 if they approve the single. B list and C list musicians can
             cost anywhere from $35,000to $50,000 with approval of the single,
-            but with the help of City Billionaires MUSIC , you can feature with
-            big artists for just $7,000 to $12,000 depending on the artist,Email
-            us and let us know which artist you would like to feature on your
+            but with the help of Black Royce Music, you can feature with big
+            artists for just $7,000 to $12,000 depending on the artist,Email us
+            and let us know which artist you would like to feature on your
             single and we will ask to hear your single and discuss options for
             you to broker your deal.
             <br />

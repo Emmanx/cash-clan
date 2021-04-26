@@ -60,19 +60,19 @@ function Images() {
     <Wrapper>
       <ProductCard>
         <img src={black} alt="Shirt" />
-        <h4>City Billionaires Plain Black T-Shirt</h4>
+        <h4>Black Royce Plain Black T-Shirt</h4>
       </ProductCard>
       <ProductCard>
         <img src={black2} alt="Shirt" />
-        <h4>City Billionaires Black T-Shirt</h4>
+        <h4>Black Royce Black T-Shirt</h4>
       </ProductCard>
       <ProductCard>
         <img src={grey} alt="Shirt" />
-        <h4>City Billionaires Plain Grey T-Shirt</h4>
+        <h4>Black Royce Plain Grey T-Shirt</h4>
       </ProductCard>
       <ProductCard>
         <img src={red} alt="Shirt" />
-        <h4>City Billionaires Plain Red T-Shirt</h4>
+        <h4>Black Royce Plain Red T-Shirt</h4>
       </ProductCard>
     </Wrapper>
   )
