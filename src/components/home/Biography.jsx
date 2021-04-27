@@ -1,9 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-
 import { Container, Row } from '../common/Grid.jsx'
 
+import React from 'react'
 import city from '../../images/city.jpg'
+import styled from 'styled-components'
 
 const Section = styled.section`
   padding: 10rem 0;
@@ -69,7 +68,7 @@ function Biography() {
               dog is not wagged by the industry tail. Just as punk erupted out
               of New York City and Motown from Detroit, the new wave of the most
               successful and acclaimed music comes out of a specific city at a
-              specific moment—this time it’s Atlanta, home to CBM .Founded in
+              specific moment—this time it’s Atlanta, home to BRM .Founded in
               2017 by Roland king and Coo wale David.
               <br />
               <br />
@@ -112,7 +111,7 @@ function Biography() {
               just rent that out and make my money back that way,” says Roland .
               “Wale saw it and said, ‘This is amazing, are you interested in
               starting your label thing back up?’ And Roland said yes .
-              Recognizing that they would need resources to really grow CBM for
+              Recognizing that they would need resources to really grow BRM for
               global takeover.The key is to find a partner who really
               understands who you are,” says Wale . “And trust that
               understanding to allow Black Royce Music to run
@@ -131,7 +130,7 @@ function Biography() {
               to take care of business,” he says. “Some people get egos, get the
               big head, but where I come from, we don’t like cameras, we don’t
               like the spotlight. Wale finds his greatest reward in helping
-              young talent find their own voice. “At CBM my job is to make the
+              young talent find their own voice. “At BRM my job is to make the
               best out of an artist,” he says. “They might not know what they
               really have, but I dig in and pull.
             </Text>

@@ -1,11 +1,10 @@
-import styled from 'styled-components'
+import { Container, Row } from '../common/Grid'
 import React, { useState } from 'react'
 
-import logo from '../../images/logo.png'
-import { Container, Row } from '../common/Grid'
 import { Link } from 'react-router-dom'
-
 import icon from '../../images/list.svg'
+import logo from '../../images/logo.jpeg'
+import styled from 'styled-components'
 
 const Wrapper = styled.header`
   width: 100%;
