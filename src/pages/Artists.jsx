@@ -90,14 +90,14 @@ function Artists() {
         signing a few unsign artist on a starting two years record contract deal
         worth $1 million( one million dollars) With a great vision of producing
         the next big stars the record label(BRM) is willing to support all
-        artists signed under the management in achieving their dreams, City
-        Billionaires music is not in a hurry in getting the kind artist we need
-        because when it comes to making good music we really got high taste
-        “says wale . The record label have been working so hard in putting the
-        right team together to achieve it purpose and have also spent almost
-        $600,000 in achieving this . We need an artist who is marketable and
-        musically oriented either in rapping or singing because the music
-        business is getting better and Serious everyday “says wale . In terms of
+        artists signed under the management in achieving their dreams, Black
+        Royce music is not in a hurry in getting the kind artist we need because
+        when it comes to making good music we really got high taste “says wale .
+        The record label have been working so hard in putting the right team
+        together to achieve it purpose and have also spent almost $600,000 in
+        achieving this . We need an artist who is marketable and musically
+        oriented either in rapping or singing because the music business is
+        getting better and Serious everyday “says wale . In terms of
         distribution BRM has some high profile distribution mogul to work with
         the team ,making sure our artist are network properly globally . We have
         been trying to connect with as many artist as possible on social media
@@ -112,8 +112,8 @@ function Artists() {
         <br />
         <br />
         All artists displayed on this page are high performant artists currently
-        trending in various records labels and are not signed to City
-        Billionaires Music
+        trending in various records labels and are not signed to Black Royce
+        Music
       </Text>
       <ArtistsGrid images={artists} />
     </>

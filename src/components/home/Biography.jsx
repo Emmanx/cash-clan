@@ -123,11 +123,11 @@ function Biography() {
               storm, Looking ahead, Wale and Roland want to go beyond borders of
               genre or country. “I don’t want just to be known as ‘the trap
               label,’ ” says Wale. “I want to be a world label. Quietly, these
-              two men have created a company in the independent spirit(City
-              Billionaires MUSIC). Roland , for one, wants to keep the focus on
-              the results rather than the men behind the curtain. “I don’t need
-              to be all in front of the cameras, in all the magazines—I’m here
-              to take care of business,” he says. “Some people get egos, get the
+              two men have created a company in the independent spirit(Black
+              Royce MUSIC). Roland , for one, wants to keep the focus on the
+              results rather than the men behind the curtain. “I don’t need to
+              be all in front of the cameras, in all the magazines—I’m here to
+              take care of business,” he says. “Some people get egos, get the
               big head, but where I come from, we don’t like cameras, we don’t
               like the spotlight. Wale finds his greatest reward in helping
               young talent find their own voice. “At BRM my job is to make the
